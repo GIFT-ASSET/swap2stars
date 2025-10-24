@@ -15,8 +15,8 @@ This method uses plain JavaScript and jQuery to dynamically load and initialize 
 
 ```js
 function loadWidget(callback) {
-  var cssUrl = 'https://giftasset.pro/api/v1/stars/src/v1/widget/css/stars-swap.css';
-  var jsUrl  = 'https://giftasset.pro/api/v1/stars/src/v1/widget/js/stars-swap-widget.umd.js';
+  var cssUrl = 'https://swap2stars.app/src/v1/widget/js/1761135609/stars-swap-widget.umd.js';
+  var jsUrl  = 'https://swap2stars.app/src/v1/widget/css/1761135609/stars-swap.css';
 
   $('head').append('<link rel="stylesheet" href="' + cssUrl + '" />');
 
@@ -83,8 +83,8 @@ import { useEffect } from 'react';
 export default function StarsWidgetLoader() {
   useEffect(() => {
     const loadWidget = (callback) => {
-      const cssUrl = 'https://giftasset.pro/api/v1/stars/src/v1/widget/css/stars-swap.css';
-      const jsUrl = 'https://giftasset.pro/api/v1/stars/src/v1/widget/js/stars-swap-widget.umd.js';
+      var cssUrl = 'https://swap2stars.app/src/v1/widget/js/1761135609/stars-swap-widget.umd.js';
+      var jsUrl  = 'https://swap2stars.app/src/v1/widget/css/1761135609/stars-swap.css';
 
       const link = document.createElement('link');
       link.rel = 'stylesheet';
