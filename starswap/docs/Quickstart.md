@@ -38,6 +38,7 @@ function initWidget() {
   if (typeof window.StarsSwapWidget !== 'undefined') {
     window.StarsSwapWidget.init({
       partnerUid: '*your_partner_uid_here*',
+      userId: *your custom or telegram user_id who laucnh app*
     });
   }
 }
@@ -97,6 +98,7 @@ export default function StarsWidgetLoader() {
         if (window.StarsSwapWidget) {
           window.StarsSwapWidget.init({
             partnerUid: '*your_partner_uid_here*',
+            userId: *your custom or telegram user_id who laucnh app*
           });
           if (callback) callback();
         }
